@@ -41,7 +41,7 @@ def display():
 
 class TestCalculator:
 
-	def test_add(self):
+	def test_add(self, greet):
 		print("in test add")
 
 	def test_sub(self):
